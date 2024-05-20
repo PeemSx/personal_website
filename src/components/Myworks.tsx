@@ -26,7 +26,7 @@ const Myworks = () => {
   )
 
   return (
-    <div className='min-h-svh p-12'>
+    <div className='min-h-svh lg:p-12'>
         <h1 className='text-center font-bold text-2xl'>My Works</h1>
         <div className='sm:grid sm:max-lg:grid-cols-1  xl:grid-cols-3'>
             {works}
